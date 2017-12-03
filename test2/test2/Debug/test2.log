@@ -1,0 +1,34 @@
+﻿生成启动时间为 2015/4/18 22:15:43。
+     1>项目“E:\c++实验\test2\test2\test2.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“E:\c++实验\test2\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\test2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>e:\c++实验\test2\test2\test.cpp(13): warning C4804: “>”: 在操作中使用类型“bool”不安全
+     1>e:\c++实验\test2\test2\test.cpp(15): warning C4804: “>”: 在操作中使用类型“bool”不安全
+     1>e:\c++实验\test2\test2\test.cpp(29): warning C4804: “>”: 在操作中使用类型“bool”不安全
+     1>e:\c++实验\test2\test2\test.cpp(31): warning C4804: “>”: 在操作中使用类型“bool”不安全
+     1>d:\vs2010\vc\include\xutility(638): error C2064: 项不会计算为接受 2 个参数的函数
+                 d:\vs2010\vc\include\xutility(2088): 参见对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<_Pr,_Ty,_Ty>(_Pr,const _Ty1 &,const _Ty2 &,std::_Dbfile_t,std::_Dbline_t)”的引用
+                 with
+                 [
+                     _Pr=float,
+                     _Ty=float,
+                     _Ty1=float,
+                     _Ty2=float
+                 ]
+                 e:\c++实验\test2\test2\test.cpp(47): 参见对正在编译的函数 模板 实例化“const _Ty &std::max<float,float>(const _Ty &,const _Ty &,_Pr)”的引用
+                 with
+                 [
+                     _Ty=float,
+                     _Pr=float
+                 ]
+     1>d:\vs2010\vc\include\xutility(640): error C2064: 项不会计算为接受 2 个参数的函数
+     1>已完成生成项目“E:\c++实验\test2\test2\test2.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.76
